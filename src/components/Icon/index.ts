@@ -1,0 +1,8 @@
+export { Github as GithubIcon } from "./Github"
+export { Email as EmailIcon } from "./Email"
+export { Instagram as InstagramIcon } from "./Instagram"
+export { LinkedIn as LinkedInIcon } from "./LinkedIn"
+export { FileDownload as FileDownloadIcon } from "./FileDownload"
+export { Goodreads as GoodreadsIcon } from "./Goodreads"
+export { ArrowUpRight as ArrowUpRightIcon } from "./ArrowUpRight"
+export { ArrowRight as ArrowRightIcon } from "./ArrowRight"
