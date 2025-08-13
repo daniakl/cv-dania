@@ -71,7 +71,7 @@ export function Header() {
               target="_blank"
               className="relative bg-violet-100 group shadow-inner text-violet-950 ring ring-inset ring-violet-400/10 overflow-hidden rounded-full cursor-pointer h-8"
             >
-              <div className="max-md:hidden flex flex-col group-hover:-translate-y-6 py-1 px-2.5  transition-transform duration-200">
+              <div className="max-md:hidden flex flex-col gap-1 group-hover:-translate-y-7 py-1 px-2.5  transition-transform duration-200">
                 <div className="flex items-center h-6 min-w-max">
                   <EmailIcon className="size-5 opacity-70" />
                   <span className="px-4 w-full text-center">
