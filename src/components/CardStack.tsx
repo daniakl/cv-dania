@@ -96,11 +96,11 @@ export function CardStack({ lang }: { lang: "en" | "fr" }) {
 
   return (
     <div className="relative space-y-4">
-      <h2>
+      <h2 className="flex flex-col items-center gap-1">
         <span className="opacity-60">
           {lang === "en"
             ? "When I'm not working, I'm..."
-            : "Quand je ne travaille pas, je suis..."}
+            : "Quand je ne travaille pas, je suis en train de..."}
         </span>{" "}
         <span className="font-medium text-zinc-900">
           <AnimatePresence mode="wait">

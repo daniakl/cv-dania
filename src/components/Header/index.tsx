@@ -19,7 +19,7 @@ export function Header({ lang }: { lang: "en" | "fr" }) {
       <div className="fixed top-0 w-screen z-50 text-zinc-900">
         <ProgressiveBlurBG />
 
-        <div className="md:my-8 my-4 relative z-10 bg-violet-50/80 overflow-clip border border-zinc-200 backdrop-blur-lg p-1.5 rounded-full shadow-lg shadow-purple-800/10 flex items-center justify-between max-w-xl max-md:mx-3 mx-auto">
+        <div className="md:my-8 my-4 relative z-10 bg-violet-50/80 overflow-clip border border-zinc-200 backdrop-blur-lg p-1.5 rounded-full shadow-lg shadow-purple-800/10 flex items-center justify-between max-w-xl max-sm:mx-3 mx-auto">
           <div className="flex items-center gap-1.5 ml-1">
             <SocialLinkButton
               href="https://github.com/daniakl"
