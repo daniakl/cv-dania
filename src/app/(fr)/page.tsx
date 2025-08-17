@@ -1,6 +1,6 @@
-import { CardStack } from "@/components/CardStack"
-import Image from "next/image"
-import Link from "next/link"
+import { CardStack } from "@/components/CardStack";
+import Image from "next/image";
+import Link from "next/link";
 
 function OldNavyBadge() {
   return (
@@ -12,7 +12,7 @@ function OldNavyBadge() {
       </span>
       <span className="font-medium text-zinc-700">Old Navy</span>
     </span>
-  )
+  );
 }
 
 export default function Home() {
@@ -34,12 +34,13 @@ export default function Home() {
 
           <div className="text-violet-950 space-y-4">
             <h1 className="md:text-7xl text-5xl md:mt-12 mt-8 font-heading leading-tight tracking-tighter font-bold mx-auto">
-              Hi, I&apos;m Dania <span className="ml-4 ">👋</span>
+              Salut! <br /> Ici Dania <span className="ml-4 ">👋</span>
             </h1>
 
             <p className="md:text-lg text-base text-heading md:mt-6 mt-4 font-medium text-pretty leading-snug text-violet-950/70">
-              Management pro turned data detective, passionate about turning
-              messy datasets into actionable insights.
+              Ex-manager devenue détective des données, passionnée par la
+              transformation de jeux de données complexes en informations
+              exploitables.
             </p>
           </div>
         </section>
@@ -47,45 +48,48 @@ export default function Home() {
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Experience</h2>
           <p className="text-pretty">
-            During my 10+ years at <OldNavyBadge />, I led teams accross 3
-            flagship stores for 5+ years, leading various initiatives to drive
-            sales growth and optimize store operations. During this I learned
-            the importance of digging through store performance data to find key
-            insights to make data-driven decisions.
+            Au cours de mes 10+ années chez <OldNavyBadge />, j’ai dirigé des
+            équipes dans 3 magasins phares pendant plus de 5 ans, menant
+            diverses initiatives pour stimuler la croissance des ventes et
+            optimiser les opérations en magasin. Cette expérience m’a appris
+            l’importance d’analyser les données de performance pour identifier
+            les leviers clés et prendre des décisions éclairées.
           </p>
 
           <p className="text-pretty">
-            I&apos;ve decided to pivot to data analytics to continue my journey
-            in data-driven decision-making. Currently following online courses
-            and building{" "}
-            <Link
-              href="https://github.com/daniakl"
-              target="_blank"
-              className="font-medium whitespace-nowrap text-zinc-700 hover:text-zinc-900 underline decoration-dotted underline-offset-3"
-            >
-              side projects
-            </Link>{" "}
-            to improve my skills.
+            J’ai choisi de me réorienter vers l'analyse de données pour
+            continuer à évoluer dans la prise de décision basée sur les données.
+            Je suis actuellement des formations en ligne et je développe des
+            projets personnels pour renforcer mes compétences.
           </p>
         </section>
 
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Info</h2>
           <p className="text-pretty ">
-            I&apos;m currently based in Montreal, Canada. Fluent in French and
-            English. I use tools like{" "}
+            Habitant à Montréal, Canada. Bilingue français/anglais. J’utilise
+            des outils comme{" "}
             <span className="font-medium text-zinc-700">
               Excel, SQL, Python, Notion,
             </span>{" "}
-            and <span className="font-medium text-zinc-700">ChatGPT</span> to
-            analyze data and build reports.
+            et <span className="font-medium text-zinc-700">ChatGPT</span> pour
+            analyser des données et créer des rapports.
           </p>
         </section>
 
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <CardStack />
         </section>
+
+        <footer className="w-full flex justify-center pt-8 md:pt-12">
+          <Link
+            href="/en"
+            className="hover:underline text-xs text-zinc-600  underline-offset-3"
+          >
+            Read in English
+          </Link>
+        </footer>
       </main>
     </div>
-  )
+  );
 }
