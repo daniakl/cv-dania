@@ -78,7 +78,7 @@ export default function Home() {
         </section>
 
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
-          <CardStack />
+          <CardStack lang="fr" />
         </section>
 
         <footer className="w-full flex justify-center pt-8 md:pt-12">
