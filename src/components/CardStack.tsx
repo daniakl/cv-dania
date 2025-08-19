@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { AnimatePresence, motion } from "motion/react"
-import { cn } from "@/lib/utils"
-import { useState, useEffect, useRef } from "react"
-import Link from "next/link"
-import { GoodreadsIcon, InstagramIcon } from "./Icon"
+import Image from "next/image";
+import { AnimatePresence, motion } from "motion/react";
+import { cn } from "@/lib/utils";
+import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
+import { GoodreadsIcon, InstagramIcon } from "./Icon";
 
 const cards = [
   {
@@ -13,7 +13,8 @@ const cards = [
     alt: "Cooking",
     className: "-rotate-6",
     hoverRotate: -3,
-    title: "whipping up something tasty 👩‍🍳",
+    enTitle: "whipping up something tasty 👩‍🍳",
+    frTitle: "cusiner quelque chose de délicieux 👩‍🍳",
     href: "https://www.instagram.com/petitarbre/",
   },
   {
@@ -21,7 +22,8 @@ const cards = [
     alt: "Taking photos",
     className: "rotate-2",
     hoverRotate: -3,
-    title: "photographing the city 📸",
+    enTitle: "photographing the city 📸",
+    frTitle: "photographier la ville 📸",
     href: "https://www.instagram.com/petitarbre/",
   },
   {
@@ -29,73 +31,76 @@ const cards = [
     alt: "Reading",
     className: "rotate-3",
     hoverRotate: 2,
-    title: "getting lost in a good book 📚",
+    enTitle: "getting lost in a good book 📚",
+    frTitle: "me perdre dans un bon livre 📚",
     href: "https://www.goodreads.com/",
   },
-]
+];
 
-export function CardStack() {
-  const [lastHovered, setLastHovered] = useState<number>(0)
-  const [isUserHovering, setIsUserHovering] = useState<boolean>(false)
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
+export function CardStack({ lang }: { lang: "en" | "fr" }) {
+  const [lastHovered, setLastHovered] = useState<number>(0);
+  const [isUserHovering, setIsUserHovering] = useState<boolean>(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const clearActiveTimeout = () => {
     if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current)
-      timeoutRef.current = null
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
     }
-  }
+  };
 
   const startAutoSequence = () => {
-    let currentIndex = 0
+    let currentIndex = 0;
 
     const cycleCards = () => {
-      setLastHovered(currentIndex)
-      currentIndex = (currentIndex + 1) % cards.length
-      timeoutRef.current = setTimeout(cycleCards, 3000)
-    }
+      setLastHovered(currentIndex);
+      currentIndex = (currentIndex + 1) % cards.length;
+      timeoutRef.current = setTimeout(cycleCards, 3000);
+    };
 
-    cycleCards()
-  }
+    cycleCards();
+  };
 
   const handleHover = (index: number) => {
-    setLastHovered(index)
-    setIsUserHovering(true)
-    clearActiveTimeout()
+    setLastHovered(index);
+    setIsUserHovering(true);
+    clearActiveTimeout();
 
     // Start 3s timer to resume auto sequence
     timeoutRef.current = setTimeout(() => {
-      setIsUserHovering(false)
-      startAutoSequence()
-    }, 3000)
-  }
+      setIsUserHovering(false);
+      startAutoSequence();
+    }, 3000);
+  };
 
   // Initialize auto sequence and cleanup
   useEffect(() => {
     const initialTimeout = setTimeout(() => {
       if (!isUserHovering) {
-        startAutoSequence()
+        startAutoSequence();
       }
-    }, 1000)
+    }, 1000);
 
     return () => {
-      clearTimeout(initialTimeout)
-      clearActiveTimeout()
-    }
-  }, [isUserHovering])
+      clearTimeout(initialTimeout);
+      clearActiveTimeout();
+    };
+  }, [isUserHovering]);
 
   // Stop auto sequence when user hovers
   useEffect(() => {
     if (isUserHovering) {
-      clearActiveTimeout()
+      clearActiveTimeout();
     }
-  }, [isUserHovering])
+  }, [isUserHovering]);
 
   return (
     <div className="relative space-y-4">
-      <h2>
+      <h2 className="flex flex-col items-center gap-1">
         <span className="opacity-60">
-          When I&apos;m not working, I&apos;m...
+          {lang === "en"
+            ? "When I'm not working, I'm..."
+            : "Quand je ne travaille pas, je suis en train de..."}
         </span>{" "}
         <span className="font-medium text-zinc-900">
           <AnimatePresence mode="wait">
@@ -107,7 +112,7 @@ export function CardStack() {
               transition={{ duration: 0.2 }}
               className="inline-block"
             >
-              {cards[lastHovered].title}
+              {cards[lastHovered][`${lang}Title`]}
             </motion.span>
           </AnimatePresence>
         </span>
@@ -180,5 +185,5 @@ export function CardStack() {
         </Link>
       </div>
     </div>
-  )
+  );
 }
