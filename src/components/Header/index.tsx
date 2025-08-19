@@ -46,7 +46,7 @@ export function Header({ lang }: { lang: "en" | "fr" }) {
                 onClick={() => {
                   const link = document.createElement("a");
 
-                  link.href = "/Placeholder-PDF.pdf";
+                  link.href = lang === "en" ? "/CV - en.pdf" : "/CV - fr.pdf";
                   link.download = "CV-Dania.pdf";
                   document.body.appendChild(link);
                   link.click();

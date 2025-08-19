@@ -24,11 +24,11 @@ export default function Home() {
         <section>
           <div className="">
             <Image
-              src="/images/profile.png"
+              src="/images/profile.jpg"
               alt="Dania"
-              width={128}
-              height={128}
-              className="md:size-32 size-20 border-4 md:-m-1 border-zinc-200 shadow-xl shadow-violet-700/10 rounded-full"
+              width={3130}
+              height={2075}
+              className="md:size-32 size-20 border-4 md:-m-1 border-zinc-200 shadow-xl shadow-violet-700/10 rounded-full object-cover"
             />
           </div>
 
