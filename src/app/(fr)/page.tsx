@@ -48,27 +48,27 @@ export default function Home() {
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Experience</h2>
           <p className="text-pretty">
-            Au cours de mes 10+ années chez <OldNavyBadge />, j’ai dirigé des
-            équipes dans 3 magasins phares pendant plus de 5 ans, menant
+            Au cours de mes 10+ années chez <OldNavyBadge />, j&apos;ai dirigé
+            des équipes dans 3 magasins phares pendant plus de 5 ans, menant
             diverses initiatives pour stimuler la croissance des ventes et
-            optimiser les opérations en magasin. Cette expérience m’a appris
-            l’importance d’analyser les données de performance pour identifier
-            les leviers clés et prendre des décisions éclairées.
+            optimiser les opérations en magasin. Cette expérience m&apos;a
+            appris l&apos;importance d&apos;analyser les données de performance
+            pour identifier les leviers clés et prendre des décisions éclairées.
           </p>
 
           <p className="text-pretty">
-            J’ai choisi de me réorienter vers l'analyse de données pour
-            continuer à évoluer dans la prise de décision basée sur les données.
-            Je suis actuellement des formations en ligne et je développe des
-            projets personnels pour renforcer mes compétences.
+            J&apos;ai choisi de me réorienter vers l&apos;analyse de données
+            pour continuer à évoluer dans la prise de décision basée sur les
+            données. Je suis actuellement des formations en ligne et je
+            développe des projets personnels pour renforcer mes compétences.
           </p>
         </section>
 
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Info</h2>
           <p className="text-pretty ">
-            Habitant à Montréal, Canada. Bilingue français/anglais. J’utilise
-            des outils comme{" "}
+            Habitant à Montréal, Canada. Bilingue français/anglais.
+            J&apos;utilise des outils comme{" "}
             <span className="font-medium text-zinc-700">
               Excel, SQL, Python, Notion,
             </span>{" "}
