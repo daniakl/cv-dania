@@ -49,8 +49,8 @@ export default function Home() {
           <h2 className="opacity-60">Experience</h2>
           <p className="text-pretty">
             Au cours de mes 10+ années chez <OldNavyBadge />, j&apos;ai dirigé
-            des équipes dans 3 magasins phares pendant plus de 5 ans, menant
-            diverses initiatives pour stimuler la croissance des ventes et
+            des équipes dans 2 magasins phares pendant plus de 5 ans. J&apos;ai
+            mené diverses initiatives pour stimuler la croissance des ventes et
             optimiser les opérations en magasin. Cette expérience m&apos;a
             appris l&apos;importance d&apos;analyser les données de performance
             pour identifier les leviers clés et prendre des décisions éclairées.
@@ -58,9 +58,10 @@ export default function Home() {
 
           <p className="text-pretty">
             J&apos;ai choisi de me réorienter vers l&apos;analyse de données
-            pour continuer à évoluer dans la prise de décision basée sur les
-            données. Je suis actuellement des formations en ligne et je
-            développe des projets personnels pour renforcer mes compétences.
+            pour continuer à établir des corrélations qui permettent de prendre
+            des décisions éclairées et ainsi améliorer les processus de travail.
+            Je suis actuellement des formations en ligne et je bâtis des projets
+            personnels pour renforcer l&apos;application de mes compétences.
           </p>
         </section>
 
@@ -70,10 +71,10 @@ export default function Home() {
             Habitant à Montréal, Canada. Bilingue français/anglais.
             J&apos;utilise des outils comme{" "}
             <span className="font-medium text-zinc-700">
-              Excel, SQL, Python, Notion,
+              Excel, SQL, Notion, GitHub
             </span>{" "}
             et <span className="font-medium text-zinc-700">ChatGPT</span> pour
-            analyser des données et créer des rapports.
+            analyser des données et créer des visualizations.
           </p>
         </section>
 
