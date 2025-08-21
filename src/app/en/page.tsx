@@ -47,11 +47,11 @@ export default function Home() {
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Experience</h2>
           <p className="text-pretty">
-            During my 10+ years at <OldNavyBadge />, I led teams accross 3
-            flagship stores for 5+ years, leading various initiatives to drive
-            sales growth and optimize store operations. During this I learned
-            the importance of digging through store performance data to find key
-            insights to make data-driven decisions.
+            During my 10+ years at <OldNavyBadge />, I led teams accross 2
+            stores for 5+ years, including a flagship, leading various
+            initiatives to drive sales growth and optimize store operations.
+            During this I learned the importance of digging through store
+            performance data to find key insights to make data-driven decisions.
           </p>
 
           <p className="text-pretty">
@@ -75,10 +75,10 @@ export default function Home() {
             I&apos;m currently based in Montreal, Canada. Fluent in French and
             English. I use tools like{" "}
             <span className="font-medium text-zinc-700">
-              Excel, SQL, Python, Notion,
+              Excel, SQL, Notion, GitHub
             </span>{" "}
             and <span className="font-medium text-zinc-700">ChatGPT</span> to
-            analyze data and build reports.
+            analyze data and build visualizations.
           </p>
         </section>
 
