@@ -33,7 +33,7 @@ const cards = [
     hoverRotate: 2,
     enTitle: "getting lost in a good book 📚",
     frTitle: "me perdre dans un bon livre 📚",
-    href: "https://www.goodreads.com/",
+    href: "https://www.goodreads.com/daniakl",
   },
 ];
 
@@ -170,14 +170,14 @@ export function CardStack({ lang }: { lang: "en" | "fr" }) {
 
       <div className="flex justify-center gap-8">
         <Link
-          href="https://www.instagram.com/daniakl/"
+          href="https://www.instagram.com/petitarbre/"
           className="flex items-center gap-2 px-2 py-1 text-sm rounded-full text-zinc-600 hover:text-zinc-900 transition-colors"
         >
           <InstagramIcon className="size-4" />
           Instagram
         </Link>
         <Link
-          href="https://www.goodreads.com/"
+          href="https://www.goodreads.com/daniakl"
           className="flex items-center gap-2 px-2 py-1 text-sm rounded-full text-zinc-600 hover:text-zinc-900 transition-colors"
         >
           <GoodreadsIcon className="size-4" />
