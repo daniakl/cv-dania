@@ -59,12 +59,11 @@ export default function Home() {
 
           <p className="text-pretty">
             Au fil du temps, j&apos;ai développé de l&apos;intérêt pour
-            l&apos;analyse de données. Dans ma carrière, ça m&apos; permis
-            d&apos;étanlir de meiux établir des corrélations qui permettent de
-            prendre des décisions éclairées et ainsi améliorer les processus de
-            travail. Je suis actuellement des formations en ligne et je bâtis
-            des projets personnels pour renforcer l&apos;application de mes
-            compétences.
+            l&apos;analyse de données. Dans ma carrière, ça m&apos; permis de
+            meiux établir des corrélations qui permettent de prendre les bonnes
+            décisions afin d&apos;améliorer les processus de travail. Je suis
+            actuellement des formations en ligne et je bâtis des projets
+            personnels pour renforcer l&apos;application de mes compétences.
           </p>
         </section>
 
