@@ -51,17 +51,20 @@ export default function Home() {
             Au cours de mes 10+ années chez <OldNavyBadge />, j&apos;ai dirigé
             des équipes dans 2 magasins phares pendant plus de 5 ans. J&apos;ai
             mené diverses initiatives pour stimuler la croissance des ventes et
-            optimiser les opérations en magasin. Cette expérience m&apos;a
+            optimiser les opérations en magasin afin de maximiser
+            l&apos;expérience client. Cette portion de ma carrière m&apos;a
             appris l&apos;importance d&apos;analyser les données de performance
             pour identifier les leviers clés et prendre des décisions éclairées.
           </p>
 
           <p className="text-pretty">
-            J&apos;ai choisi de me réorienter vers l&apos;analyse de données
-            pour continuer à établir des corrélations qui permettent de prendre
-            des décisions éclairées et ainsi améliorer les processus de travail.
-            Je suis actuellement des formations en ligne et je bâtis des projets
-            personnels pour renforcer l&apos;application de mes compétences.
+            Au fil du temps, j&apos;ai développé de l&apos;intérêt pour
+            l&apos;analyse de données. Dans ma carrière, ça m&apos; permis
+            d&apos;étanlir de meiux établir des corrélations qui permettent de
+            prendre des décisions éclairées et ainsi améliorer les processus de
+            travail. Je suis actuellement des formations en ligne et je bâtis
+            des projets personnels pour renforcer l&apos;application de mes
+            compétences.
           </p>
         </section>
 

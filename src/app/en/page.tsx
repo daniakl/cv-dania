@@ -49,15 +49,17 @@ export default function Home() {
           <p className="text-pretty">
             During my 10+ years at <OldNavyBadge />, I led teams accross 2
             stores for 5+ years, including a flagship, leading various
-            initiatives to drive sales growth and optimize store operations.
-            During this I learned the importance of digging through store
-            performance data to find key insights to make data-driven decisions.
+            initiatives to drive sales growth and optimize store operations
+            while keeping the customer experience as a priority. During this I
+            learned the importance of digging through store performance data to
+            find key insights to make data-driven decisions.
           </p>
 
           <p className="text-pretty">
-            I&apos;ve decided to pivot to data analytics to continue my journey
-            in data-driven decision-making. Currently following online courses
-            and building{" "}
+            Over the years, I&apos;ve developped interest in data analytics. It
+            has, throughout my career, given me tools to get better insights and
+            have better data-driven decision-making. Currently following online
+            courses and building{" "}
             <Link
               href="https://github.com/daniakl"
               target="_blank"
