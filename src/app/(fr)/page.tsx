@@ -58,8 +58,8 @@ export default function Home() {
           </p>
 
           <p className="text-pretty">
-            Au fil du temps, j'ai développé de l'intérêt pour l'analyse de
-            données. Dans ma carrière, ça m'a permis de meiux établir des
+            Au fil du temps, j'ai développé un intérêt pour l'analyse de
+            données. Dans ma carrière, cela m'a permis de mieux établir des
             corrélations qui permettent de prendre les bonnes décisions afin
             d'améliorer les processus de travail. Je suis actuellement des
             formations en ligne et je bâtis des projets personnels pour
@@ -76,7 +76,7 @@ export default function Home() {
               Excel, SQL, Notion, GitHub
             </span>{" "}
             et <span className="font-medium text-zinc-700">ChatGPT</span> pour
-            analyser des données et créer des visualizations.
+            analyser des données et créer des visualisations.
           </p>
         </section>
 

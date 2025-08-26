@@ -47,16 +47,16 @@ export default function Home() {
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Experience</h2>
           <p className="text-pretty">
-            During my 10+ years at <OldNavyBadge />, I led teams accross 2
-            stores for 5+ years, including a flagship, leading various
-            initiatives to drive sales growth and optimize store operations
-            while keeping the customer experience as a priority. During this I
-            learned the importance of digging through store performance data to
-            find key insights to make data-driven decisions.
+            During my 10+ years at <OldNavyBadge />, I led teams across 2 stores
+            for 5+ years, including a flagship, leading various initiatives to
+            drive sales growth and optimize store operations while keeping the
+            customer experience as a priority. During this time I learned the
+            importance of digging through store performance data to find key
+            insights to make data-driven decisions.
           </p>
 
           <p className="text-pretty">
-            Over the years, I've developped interest in data analytics. It has,
+            Over the years, I've developed interest in data analytics. It has,
             throughout my career, given me tools to get better insights and have
             better data-driven decision-making. Currently following online
             courses and building{" "}
