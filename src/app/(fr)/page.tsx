@@ -62,8 +62,15 @@ export default function Home() {
             données. Dans ma carrière, cela m'a permis de mieux établir des
             corrélations qui permettent de prendre les bonnes décisions afin
             d'améliorer les processus de travail. Je suis actuellement des
-            formations en ligne et je bâtis des projets personnels pour
-            renforcer l'application de mes compétences.
+            formations en ligne et je bâtis des{" "}
+            <Link
+              href="https://github.com/daniakl"
+              target="_blank"
+              className="font-medium whitespace-nowrap text-zinc-700 hover:text-zinc-900 underline decoration-dotted underline-offset-3"
+            >
+              projets personnels
+            </Link>{" "}
+            pour renforcer l'application de mes compétences.
           </p>
         </section>
 
