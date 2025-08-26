@@ -11,6 +11,14 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      // Disable HTML entity warnings since Next.js handles escaping automatically
+      "react/no-unescaped-entities": "off",
+      // Alternative: if you want to be more specific, you can allow apostrophes
+      // "react/no-unescaped-entities": ["error", { "forbid": [">", "}"] }]
+    },
+  },
 ];
 
 export default eslintConfig;

@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="text-violet-950 space-y-4">
             <h1 className="md:text-7xl text-5xl md:mt-12 mt-8 font-heading leading-tight tracking-tighter font-bold mx-auto">
-              Hi, I&apos;m Dania <span className="ml-4 ">👋</span>
+              Hi, I'm Dania <span className="ml-4 ">👋</span>
             </h1>
 
             <p className="md:text-lg text-base text-heading md:mt-6 mt-4 font-medium text-pretty leading-snug text-violet-950/70">
@@ -56,9 +56,9 @@ export default function Home() {
           </p>
 
           <p className="text-pretty">
-            Over the years, I&apos;ve developped interest in data analytics. It
-            has, throughout my career, given me tools to get better insights and
-            have better data-driven decision-making. Currently following online
+            Over the years, I've developped interest in data analytics. It has,
+            throughout my career, given me tools to get better insights and have
+            better data-driven decision-making. Currently following online
             courses and building{" "}
             <Link
               href="https://github.com/daniakl"
@@ -74,7 +74,7 @@ export default function Home() {
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Info</h2>
           <p className="text-pretty ">
-            I&apos;m currently based in Montreal, Canada. Fluent in French and
+            I'm currently based in Montreal, Canada. Fluent in French and
             English. I use tools like{" "}
             <span className="font-medium text-zinc-700">
               Excel, SQL, Notion, GitHub

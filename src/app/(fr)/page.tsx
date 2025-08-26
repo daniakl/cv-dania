@@ -48,30 +48,30 @@ export default function Home() {
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Experience</h2>
           <p className="text-pretty">
-            Au cours de mes 10+ années chez <OldNavyBadge />, j&apos;ai dirigé
-            des équipes dans 2 magasins phares pendant plus de 5 ans. J&apos;ai
-            mené diverses initiatives pour stimuler la croissance des ventes et
-            optimiser les opérations en magasin afin de maximiser
-            l&apos;expérience client. Cette portion de ma carrière m&apos;a
-            appris l&apos;importance d&apos;analyser les données de performance
-            pour identifier les leviers clés et prendre des décisions éclairées.
+            Au cours de mes 10+ années chez <OldNavyBadge />, j'ai dirigé des
+            équipes dans 2 magasins phares pendant plus de 5 ans. J'ai mené
+            diverses initiatives pour stimuler la croissance des ventes et
+            optimiser les opérations en magasin afin de maximiser l'expérience
+            client. Cette portion de ma carrière m'a appris l'importance
+            d'analyser les données de performance pour identifier les leviers
+            clés et prendre des décisions éclairées.
           </p>
 
           <p className="text-pretty">
-            Au fil du temps, j&apos;ai développé de l&apos;intérêt pour
-            l&apos;analyse de données. Dans ma carrière, ça m&apos; permis de
-            meiux établir des corrélations qui permettent de prendre les bonnes
-            décisions afin d&apos;améliorer les processus de travail. Je suis
-            actuellement des formations en ligne et je bâtis des projets
-            personnels pour renforcer l&apos;application de mes compétences.
+            Au fil du temps, j'ai développé de l'intérêt pour l'analyse de
+            données. Dans ma carrière, ça m'a permis de meiux établir des
+            corrélations qui permettent de prendre les bonnes décisions afin
+            d'améliorer les processus de travail. Je suis actuellement des
+            formations en ligne et je bâtis des projets personnels pour
+            renforcer l'application de mes compétences.
           </p>
         </section>
 
         <section className="space-y-4 text-zinc-600 md:pt-12 pt-8 border-t border-zinc-200">
           <h2 className="opacity-60">Info</h2>
           <p className="text-pretty ">
-            Habitant à Montréal, Canada. Bilingue français/anglais.
-            J&apos;utilise des outils comme{" "}
+            Habitant à Montréal, Canada. Bilingue français/anglais. J'utilise
+            des outils comme{" "}
             <span className="font-medium text-zinc-700">
               Excel, SQL, Notion, GitHub
             </span>{" "}
